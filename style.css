@@ -1,0 +1,39 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+body, .header {
+	background-image: url(LP.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: darkgray;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+}
+.header .text h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 35px;
+	color: #ff5300;
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+.button {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ff5300;
+	color: white;
+	font-size: 16px;
+	font-family: sans-serif;
+	padding: 8px 16px;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.button:hover {
+	background-color: silver;
+}
